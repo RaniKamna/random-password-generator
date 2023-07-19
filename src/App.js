@@ -1,11 +1,10 @@
 import React from 'react';
-import ClipboardJS from 'clipboard';
-import { v4 as uuidv4 } from 'uuid';
+import { PasswordGenerator } from './component/PasswordGenerator';
 
-function App() {
+const App = () => {
   return (
-   <></>
+   <PasswordGenerator />
   );
-}
+};
 
 export default App;
